@@ -104,7 +104,6 @@ public class RadixTrieMap_T {
     }
 
     String[] actual = new String[map.size()];
-
     int i = 0;
     for (String word : map.sorted()) {
       actual[i] = word;
